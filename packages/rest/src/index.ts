@@ -91,6 +91,7 @@ export const {
   Jobs,
   MergeRequestApprovals,
   MergeRequestAwardEmojis,
+  MergeRequestCommits,
   MergeRequestContextCommits,
   MergeRequestDiscussions,
   MergeRequestLabelEvents,

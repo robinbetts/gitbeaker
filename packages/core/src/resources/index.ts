@@ -83,6 +83,7 @@ export * from './JobArtifacts';
 export * from './Jobs';
 export * from './MergeRequestApprovals';
 export * from './MergeRequestAwardEmojis';
+export * from './MergeRequestCommits';
 export * from './MergeRequestContextCommits';
 export * from './MergeRequestDiscussions';
 export * from './MergeRequestLabelEvents';

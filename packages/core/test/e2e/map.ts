@@ -83,6 +83,7 @@ describe('API Map', () => {
       'Jobs',
       'MergeRequestApprovals',
       'MergeRequestAwardEmojis',
+      'MergeRequestCommits',
       'MergeRequestContextCommits',
       'MergeRequestDiscussions',
       'MergeRequestLabelEvents',

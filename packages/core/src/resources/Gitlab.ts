@@ -84,6 +84,7 @@ import { JobArtifacts } from './JobArtifacts';
 import { Jobs } from './Jobs';
 import { MergeRequestApprovals } from './MergeRequestApprovals';
 import { MergeRequestAwardEmojis } from './MergeRequestAwardEmojis';
+import { MergeRequestCommits } from './MergeRequestCommits';
 import { MergeRequestContextCommits } from './MergeRequestContextCommits';
 import { MergeRequestDiscussions } from './MergeRequestDiscussions';
 import { MergeRequestLabelEvents } from './MergeRequestLabelEvents';
@@ -269,6 +270,7 @@ export interface Gitlab<C extends boolean = false> extends BaseResource<C> {
   Jobs: Jobs<C>;
   MergeRequestApprovals: MergeRequestApprovals<C>;
   MergeRequestAwardEmojis: MergeRequestAwardEmojis<C>;
+  MergeRequestCommits: MergeRequestCommits<C>;
   MergeRequestContextCommits: MergeRequestContextCommits<C>;
   MergeRequestDiscussions: MergeRequestDiscussions<C>;
   MergeRequestLabelEvents: MergeRequestLabelEvents<C>;
@@ -452,6 +454,7 @@ const resources = {
   Jobs,
   MergeRequestApprovals,
   MergeRequestAwardEmojis,
+  MergeRequestCommits,
   MergeRequestContextCommits,
   MergeRequestDiscussions,
   MergeRequestLabelEvents,

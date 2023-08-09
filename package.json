@@ -1,9 +1,9 @@
 {
   "name": "gitbeaker",
   "private": true,
-  "repository": "github:jdalrymple/gitbeaker",
+  "repository": "github:robinbetts/gitbeaker",
   "bugs": {
-    "url": "https://github.com/jdalrymple/gitbeaker/issues"
+    "url": "https://github.com/robinbetts/gitbeaker/issues"
   },
   "author": "Justin Dalrymple",
   "workspaces": [
